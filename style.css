@@ -55,6 +55,7 @@ main {
 .text-output {
   font-family: "Indie Flower", cursive;
   border: 1px solid black;
+  overflow-y: scroll;
   max-width: 90vw;
   width: 25rem;
   height: 10rem;
