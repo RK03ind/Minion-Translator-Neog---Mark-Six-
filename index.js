@@ -7,7 +7,7 @@ document.querySelector(".translate-button").addEventListener("click", () => {
       return response.json();
     })
     .then((data) => {
-      document.querySelector(".translate").innerText = "Translate";
+      document.querySelector(".translate-button").innerText = "Translate";
       document.querySelector(".text-output").innerText =
         data.contents.translated;
     })
