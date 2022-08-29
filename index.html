@@ -5,16 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
     <title>Minion Translator</title>
   </head>
   <body>
     <header>Minion Translator</header>
     <main>
-      <textarea cols="30" rows="10" class="text-input"></textarea>
-      <button class="translate">Translate</button>
-      <textarea class="text-output" cols="30" rows="10" disabled></textarea>
+      <textarea
+        class="text-input"
+        placeholder="Put your message here to translate"
+      ></textarea>
+      <button class="translate-button">Translate</button>
+      <div class="output-wrapper">
+        <span>The translation will appear here👇</span>
+        <div class="text-output"></div>
+      </div>
     </main>
-    <footer>About</footer>
+    <footer>
+      <h2>About</h2>
+      <p>
+        The language minions speak is an actual language. Use this translator to
+        translate your text to minion language
+      </p>
+    </footer>
   </body>
   <script src="index.js"></script>
 </html>

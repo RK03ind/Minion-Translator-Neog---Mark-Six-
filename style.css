@@ -1,10 +1,86 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "minion";
+  src: URL("fonts/THE\ MINION.ttf") format("truetype");
+}
+
 header {
+  font-family: "minion";
+  font-size: 1.5em;
+  background-color: #f2c94c;
   text-align: center;
   padding: 1em;
 }
 main {
+  margin-top: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  padding-bottom: 14rem;
+}
+
+.text-input {
+  font-family: "Indie Flower", cursive;
+  max-width: 90vw;
+  width: 25rem;
+  height: 10rem;
+  font-size: 24px;
+  padding: 0.5em;
+}
+
+.translate-button {
+  font-family: "Indie Flower", cursive;
+  cursor: pointer;
+  font-size: 28px;
+  background-color: #f2c94c;
+  font-weight: 600;
+  height: 4rem;
+  width: 12rem;
+  outline: none;
+  border: 0;
+}
+
+.output-wrapper span {
+  font-family: "Indie Flower", cursive;
+  font-size: 22px;
+}
+
+.text-output {
+  font-family: "Indie Flower", cursive;
+  border: 1px solid black;
+  max-width: 90vw;
+  width: 25rem;
+  height: 10rem;
+  font-size: 24px;
+  padding: 0.5em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  font-family: "Indie Flower", cursive;
+  font-size: 20px;
+  background-color: #f2c94c;
+  width: 100%;
+  text-align: center;
+  padding: 1em;
+}
+
+footer h2 {
+  margin: 0;
+}
+
+footer p {
+  margin: 0.25rem 0;
 }
